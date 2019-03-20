@@ -1,4 +1,8 @@
-[![Build Status](https://travis-ci.org/coddingtonbear/python-myfitnesspal.png?branch=master)](https://travis-ci.org/coddingtonbear/python-myfitnesspal)  [![Join the chat at https://gitter.im/coddingtonbear/python-myfitnesspal](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/coddingtonbear/python-myfitnesspal?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+MQTT adoption
+=============
+
+This uses the myfitnesspal python library. You need to change the push-yesterday.py file which will be called by cron (you change crontab file).
+
 
 MyFitnessPal
 ============

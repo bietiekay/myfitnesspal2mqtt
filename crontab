@@ -1,0 +1,1 @@
+0 2 * * * root python /myfitnesspal/push-yesterday.py | mosquitto_pub -h broker -t topic -l 2>&1
