@@ -14,8 +14,9 @@ mfpbodyfat = client.get_measurements("Body Fat %",startdate)
 allprevious = False
 sys.stdout.write('{')
 while startdate <= enddate:
-    mfpexercise = client.get_exercise(startdate.year, startdate.month, startdate.day)
     mfpday = client.get_date(startdate.year,startdate.month,startdate.day)
+    mfpexercise = mfpday.exercises
+    
 # ----------- Output as JSON to STDOUT
 #    sys.stdout.write('{ \"'+startdate.strftime('%Y-%m-%d')+'\": {')
     if allprevious:
